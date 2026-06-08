@@ -1,0 +1,9 @@
+for (
+    for iterative task
+)
+nexted if
+try and catch(read up)
+elif
+loop( 
+    looping for repetitve task 
+)
