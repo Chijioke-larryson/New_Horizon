@@ -1,57 +1,57 @@
-# # rem = 0
-# # num = 2
+# rem = 0
+# num = 2
 
-# # num = int(input("Enter a number: "))
-# # num2 = num
+# num = int(input("Enter a number: "))
+# num2 = num
 
-# # sum
-# sum = 5
-# for i in range (1,6):
-#     sum = (sum +i +2) 
-#     #  sum = 5 + 1 + 2 =  8
-#     #   sum = 8 +2 +2 = 12
-#     # 
-#     # 
-#     # 
-#     print('The sum is :',sum, ',',end=" ")
-
-
+# sum
+sum = 5
+for i in range (1,6):
+    sum = (sum +i +2) 
+    #  sum = 5 + 1 + 2 =  8
+    #   sum = 8 +2 +2 = 12
+    # 
+    # 
+    # 
+    print('The sum is :',sum, ',',end=" ")
 
 
-# sum = 0
-# for i in range (5):
-#     num = eval(input("Enter a number: "))  
-#     sum = sum + num
+
+
+sum = 0
+for i in range (5):
+    num = eval(input("Enter a number: "))  
+    sum = sum + num
     
-# print("The sum of the numbers is:", sum)
-# print("The avg of the numbers is ", sum/5)
+print("The sum of the numbers is:", sum)
+print("The avg of the numbers is ", sum/5)
 
-# Finding the min 
+Finding the min 
 
-# min =  num 
-# num1 = eval(input("Enter a number: "))
-# for i in range (4):
-#     num2 = eval(input("Enter a number: "))
-#     if num1 < num2:
-#      num1 = num2
-# print("The maxiimum number is:", num1)
-
-
-
-# num1 = eval(input("Enter a number: "))
-# for i in range (4):
-#     num2 = eval(input("Enter a number: "))
-#     if num2 < num1:
-#      num1 = num2
+min =  num 
+num1 = eval(input("Enter a number: "))
+for i in range (4):
+    num2 = eval(input("Enter a number: "))
+    if num1 < num2:
+     num1 = num2
+print("The maxiimum number is:", num1)
 
 
-# num1 = eval(input("Enter a number:"))
 
-# for i in range(4):
-#     num2 = eval(input("Enter a number: "))
-#     if num1 > num2:
-#         num1 = num2
-# print('The minumum is :', num1)
+num1 = eval(input("Enter a number: "))
+for i in range (4):
+    num2 = eval(input("Enter a number: "))
+    if num2 < num1:
+     num1 = num2
+
+
+num1 = eval(input("Enter a number:"))
+
+for i in range(4):
+    num2 = eval(input("Enter a number: "))
+    if num1 > num2:
+        num1 = num2
+print('The minumum is :', num1)
         
 
 
@@ -60,50 +60,50 @@
 
 
 
-# print("The minimum number is:", num1)
-# from random import randint
+print("The minimum number is:", num1)
+from random import randint
 
 
-# user_num = eval(input("Enter a number between 1 and 100: "))
+user_num = eval(input("Enter a number between 1 and 100: "))
 
 
-# rand_num = randint(1,100)
-# if user_num == rand_num:
-#      print("Congratulations! You guessed the number.")  
-# elif user_num < rand_num:
-#      print("Too low! Try again.")
-# else:
-#      print("Your random number is :", rand_num)
+rand_num = randint(1,100)
+if user_num == rand_num:
+     print("Congratulations! You guessed the number.")  
+elif user_num < rand_num:
+     print("Too low! Try again.")
+else:
+     print("Your random number is :", rand_num)
 
 
-# from random import *
+from random import *
 
-# for i in range (7):
-#     rand_num = randint(1,15)
-#     print('Hello ' * rand_num)
-
-
-# Write a program that count how many  of the squared of the number 1 to 100 end in a 1   
-
-# count = 0
-# from hashlib import new
+for i in range (7):
+    rand_num = randint(1,15)
+    print('Hello ' * rand_num)
 
 
-# from xxlimited import new
+Write a program that count how many  of the squared of the number 1 to 100 end in a 1   
+
+count = 0
+from hashlib import new
 
 
-# for i in range (1,101):
-#     square = i ** 2
+from xxlimited import new
+
+
+for i in range (1,101):
+    square = i ** 2
     
-#     if square %10 == 1:
-#         print(i)
-    #     # count = square
-    #     # print(square, end=" ")
-    #      count += 1
-# print("The count of squared numbers that end in 1 is:", count)
+    if square %10 == 1:
+        print(i)
+        # count = square
+        # print(square, end=" ")
+        count += 1
+print("The count of squared numbers that end in 1 is:", count)
 
-# for i in range(count):
-#     print(i, end=" ")
+for i in range(count):
+    print(i, end=" ")
 
 #1
 
@@ -172,3 +172,9 @@ for i in range(1, n +(-1)):
     if n % i == 0:
         sum_divisors += i
 print("The sum of the divisors of", n, "is:", sum_divisors)
+
+
+
+for i in range(1, n):
+    if n % i == 0:
+        sum_divisors += i
