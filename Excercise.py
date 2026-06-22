@@ -93,27 +93,49 @@
 #     if row == 0 or row == height - 1:
 #         print("*" * wide)
 #     else:
-#         print("*" + " " * (wide - 2) + "*")
+#         print('*'+''*(wide-2)+ '*')
 
 #12
 # height = int(input("How high should the '*' print?: "))
 # for i in range(height):
-#     print('*' * (i+1))
+#     print(i,'*' * i)
 
 #13
 
 # height = int(input("How high should the '*' print?: "))
 # for i in range(height):
-#         print("*" * (height - i))
+#         print(i,"*" * (height - i))
 
 #14
 #We are trying to draw a diamond shape using asterics
 
+# height = int(input("How high should the '*' print?: "))
+# mid = height // 2
+# # First half (expanding)
+# for i in range(mid):
+#     print(" " * (mid - i - 1) + "*" * (2 * i + 1))
+# # Second half (contracting)
+# for i in range(mid, height):
+#     print(" " * (i - mid) + "*" * (2 * (height - i - 1) + 1))
+
+
 height = int(input("How high should the '*' print?: "))
-mid = height // 2
-# First half (expanding)
-for i in range(mid):
-    print(" " * (mid - i - 1) + "*" * (2 * i + 1))
-# Second half (contracting)
-for i in range(mid, height):
-    print(" " * (i - mid) + "*" * (2 * (height - i - 1) + 1))
+
+for i in range(height):
+    if i == 0:
+          print(" " *(height-1) +"*")
+    elif i == height //2:
+          print(" " *(height-1) + '*' * (height-i-1)+ " " *(2*i+1))
+    else:
+         print(" " * (height-i-1) + "* " + " " *(2*i-1)+ "*")
+    
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in num:
+    print(i, end=" ")
+
+x = 101
+
+if x >= 100:
+     print ("x is good ")
+     

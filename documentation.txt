@@ -7,3 +7,9 @@ elif
 loop( 
     looping for repetitve task 
 )
+
+
+
+fibonacci sequence foloowe the formula Fn = Fn-1  + Fn-2 .......
+
+a,b =b, a+b
