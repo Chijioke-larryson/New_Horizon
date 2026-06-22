@@ -26,7 +26,7 @@ for i in range (5):
 print("The sum of the numbers is:", sum)
 print("The avg of the numbers is ", sum/5)
 
-Finding the min 
+# Finding the min 
 
 min =  num 
 num1 = eval(input("Enter a number: "))
@@ -83,7 +83,7 @@ for i in range (7):
     print('Hello ' * rand_num)
 
 
-Write a program that count how many  of the squared of the number 1 to 100 end in a 1   
+# Write a program that count how many  of the squared of the number 1 to 100 end in a 1   
 
 count = 0
 from hashlib import new

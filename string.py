@@ -13,3 +13,20 @@ print(names.replace('o', 'aa'))  # Larrysan Chijiake
 
 # for name in names:
 #     print(name.upper(), end=' ')
+
+
+s = input('Enter your username:     ')
+
+if s.isalpha():
+    print('Your username is valid')
+if not s.isalpha():
+    print('Your username is invalid')
+
+
+name = 'Larryson Chijioke'
+School = 'New Horizon Computer Learning Center'
+address = 'No 1, New Horizon Street, Off Admiralty Way, Lekki Phase 1, Lagos'
+
+# 'My name is' "+ name + "'I am a student of' "+ School +"" 'My address is' + address
+
+print('my name is \"' + name + '\" I am a student of \"' + School + '\" My address is \"' + address + '\"')
