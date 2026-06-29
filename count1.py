@@ -127,7 +127,7 @@ for i in range(count):
 #         square = i ** 2
 #         if square %10 == 1:
 #             # print(i)
-#             new_count = count + 1
+#             new_count = count + 1``
 #             print(count, end=" ")
 #         if square % 10 == 9:
 #           count += 1
