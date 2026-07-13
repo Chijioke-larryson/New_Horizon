@@ -41,13 +41,13 @@
 
 # greet()
 
-import math 
+# import math 
 
-def area(radius):
-    print(3.142 * pow(radius,2))
-rad = int(input('Enter a radius: '))
+# def area(radius):
+#     print(3.142 * pow(radius,2))
+# rad = int(input('Enter a radius: '))
 
-area(rad)
+# area(rad)
 
 
 
@@ -61,11 +61,14 @@ area(rad)
 # displayName()
 
 
-name = 'Ogbonna'
+# name = 'Ogbonna'
 def displayName():
+    global name 
     name = 'John Doe'
     print(f'Your name inside the function is {name}')
 
-print('Your name outside the function is', name)
 
 displayName()
+
+print('Your name outside the function is', name)
+
