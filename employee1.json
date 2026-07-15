@@ -1,0 +1,10 @@
+{
+    "Name ": "John Doe",
+    "Age": 30,
+    "Department": "IT",
+    "Skills": [
+        "Python",
+        "JavaScript",
+        "SQL"
+    ]
+}

@@ -1,0 +1,16 @@
+list []
+duplication allowed
+order of insertion is preserved
+mutable
+set {}
+duplication is not allowed
+order of interation is not preserved
+it cannot be changed
+tuple()
+duplication
+order of insertion is preserved
+immutable , its fastest
+
+dict{"age": 22
+     "Name":"John"
+}
