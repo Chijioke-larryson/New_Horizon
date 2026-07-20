@@ -18,57 +18,57 @@ print(phone_no3["michael"]["home"])
 
 
 
-# nested dict in Dictionary
+nested dict in Dictionary
 
-# student_data = {
-#     "henry": {"age": 20, "grade": "A", "subjects": ["Math", "Science","History"]},
-#     "lisa": {"age": 22, "grade": "B", "subjects": ["English", "History"]},
-#     "michael": {"age": 21, "grade": "A", "subjects": ["Math", "Computer Science"]},
-# # }
-# student_data["henry"]["subjects"].append("Geography")
-# print(student_data["henry"].update({"age": 21}))
-# print(student_data["henry"]["age"])
-# #print(student_data["henry"]["subjects"][0])
-
-# travel_info = [{
-    
-#     "name": "Alice","age": 30,"destination": "Paris","activities": ["sightseeing", "shopping", "dining"]
-# },{
-#     "name": "Bob","age": 25,"destination": "Tokyo","activities": ["temple visits", "food tours", "shopping"]
-# }]
-
-# print(travel_info[0])
-
-
-# students_mark = {
-#     "joy" : 94, 
-#     "michael": 88,
-#     "susan": 92,
-#     "henry": 85,
-#     "lisa": 95,
-#     "Luke": 60,
-#     "James": 78,
-#     "judas": 45,
-#     "mary": 55,
+student_data = {
+    "henry": {"age": 20, "grade": "A", "subjects": ["Math", "Science","History"]},
+    "lisa": {"age": 22, "grade": "B", "subjects": ["English", "History"]},
+    "michael": {"age": 21, "grade": "A", "subjects": ["Math", "Computer Science"]},
 # }
-# students_grades = {}
-# for students in students_mark:
-#     marks = students_mark[students]
-#     if marks >= 90:
-#         students_grades[students] = "A+"
-#     elif marks >= 80 and marks <= 89:
-#         students_grades[students] = "A"
-#     elif marks >= 70 and marks <= 79:
-#         students_grades[students] = "B"
-#     elif marks >= 60 and marks <= 69:
-#         students_grades[students] = "C"
-#     elif marks >= 50 and marks <= 59:
-#         students_grades[students] = "D"
-#     elif marks >= 40 and marks <= 49:
-#         students_grades[students] = "E"
-#     else:
-#         students_grades[students] = "F"
-# print(students_grades)
+student_data["henry"]["subjects"].append("Geography")
+print(student_data["henry"].update({"age": 21}))
+print(student_data["henry"]["age"])
+#print(student_data["henry"]["subjects"][0])
+
+travel_info = [{
+    
+    "name": "Alice","age": 30,"destination": "Paris","activities": ["sightseeing", "shopping", "dining"]
+},{
+    "name": "Bob","age": 25,"destination": "Tokyo","activities": ["temple visits", "food tours", "shopping"]
+}]
+
+print(travel_info[0])
+
+
+students_mark = {
+    "joy" : 94, 
+    "michael": 88,
+    "susan": 92,
+    "henry": 85,
+    "lisa": 95,
+    "Luke": 60,
+    "James": 78,
+    "judas": 45,
+    "mary": 55,
+}
+students_grades = {}
+for students in students_mark:
+    marks = students_mark[students]
+    if marks >= 90:
+        students_grades[students] = "A+"
+    elif marks >= 80 and marks <= 89:
+        students_grades[students] = "A"
+    elif marks >= 70 and marks <= 79:
+        students_grades[students] = "B"
+    elif marks >= 60 and marks <= 69:
+        students_grades[students] = "C"
+    elif marks >= 50 and marks <= 59:
+        students_grades[students] = "D"
+    elif marks >= 40 and marks <= 49:
+        students_grades[students] = "E"
+    else:
+        students_grades[students] = "F"
+print(students_grades)
 
 
 
